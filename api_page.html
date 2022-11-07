@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Adventure plan</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/abb2191cb9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="text">
+           <button onclick="changepage()" class="diarybtn">📖 Hiking Diary</button>
+          <strong><h1 style="text-shadow:2px 2px black ;">Go Hike 🧗</h1></strong>
+            <p>Plan perfect hikes</p> 
+              <input type="search" placeholder="&nbsp;&nbsp;State/City..." id="location_input" class="egnsearch">
+              <button onclick="buttonClicked()" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+            <strong><p id="display1"></p>
+            <p id="display_1"></p></strong>
+
+            <div class="row">
+                <strong><p id="display5" style="text-shadow:2px 2px black ;"></p></strong>
+                <p id="display_5"></p>
+            </div>
+          
+          <div class="row">
+            <strong><p id="display2" style="text-shadow:2px 2px black ;"></p></strong>
+            <p id="display_2"></p>
+          </div>
+          <div class="row">
+            <strong><p id="display3" style="text-shadow:2px 2px black ;"></p></strong>
+            <p id="display_3"></p>
+          </div>
+          <div class="row">
+            <strong><p id="display4" style="text-shadow:2px 2px black ;"></p></strong>
+            <p id="display_4"></p>
+          </div>
+          
+          <div class="row">
+            <strong><p id="display6" style="text-shadow:2px 2px black ;"></p></strong>
+            <p id="display_6"></p>
+          </div>
+      </div>
+    
+    <script src="hikingApi.js">
+    
+    </script>
+  </body>
+</html>

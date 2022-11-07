@@ -1,0 +1,87 @@
+h1{
+  color: white;
+}
+.mainWrapper{
+  margin: 25px;
+}
+body{
+  font-family: helvetica;
+  background-image: url('https://wallpapercave.com/dwp2x/wp1903461.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+}
+.text{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  background-color: darkslategrey;
+  color: white;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 40px;
+}
+.btn:hover{
+  background-color: grey;
+}
+.textoverimg{
+  position: relative;
+  text-align: center;
+  background-size: cover;
+}
+.egnsearch{
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  box-shadow: 0 0 0 1.5px grey;
+}
+.row{
+  background-color: grey;
+  text-align: center;
+  box-shadow: 2px black;
+  min-height: min-content;
+  border-radius: 2px;
+
+}
+.column{
+  width: 20%;
+}
+.diarybtn{
+  background-color: darkslategrey;
+  font-family: Helvetica;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.diarybtn:hover{
+  background-color: grey;
+}
+.weatherbtn{
+  background-color: darkslategrey;
+  font-family: Helvetica;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.weatherbtn:hover{
+  background-color: grey;
+}
+.btndefault{
+  background-color: darkslategrey;
+  font-family: Helvetica;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.btndefault:hover{
+  background-color: grey;
+}
+
+
